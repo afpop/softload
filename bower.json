@@ -1,0 +1,46 @@
+{
+  "name": "softload",
+  "version": "0.0.1",
+  "authors": [
+    "Joao Paulo Oliveira"
+  ],
+  "description": "Loading directive with Angularjs and SpinKit",
+  "main": [
+    "./dist/softload.js",
+    "./dist/softload.css"
+  ],
+  "dependencies": {
+    "angular": ">1.5.8",
+    "angular-sanitize": "*",
+    "SpinKit": "spinkit#^1.2.5"
+  },
+  "keywords": [
+    "soft",
+    "load",
+    "angular",
+    "angularjs",
+    "softwillians"
+  ],
+  "license": "Softwillians License",
+  "homepage": "none",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "config",
+    "playground",
+    "src",
+    "test",
+    ".travis.yml",
+    ".gitignore",
+    ".jshintrc",
+    "CHANGELOG.md",
+    "Gruntfile.js",
+    "package.json",
+    "build",
+    "mock"
+  ]
+}

@@ -1,0 +1,156 @@
+<!doctype html>
+
+<html ng-app="todoApp">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+
+    <script src="../bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+    <link href="../bower_components/SpinKit/css/spinkit.css" type="text/css" rel="stylesheet">
+
+    <link href="../dist/softload.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+    <script src="../dist/softload.js"></script>
+
+    <style>
+
+        body{
+            background-color: #FA6938;
+        }
+
+    </style>
+</head>
+
+    <body>
+
+    <div class="container-fluid">
+
+        <div class="col-md-12" style="background-color: white; padding-top: 20px">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h1>Softload</h1>
+
+                    <hr>
+
+                </div>
+
+            </div>
+
+            <div class="row" ng-controller="TodoListController as vm">
+
+                <div class="col-md-12">
+
+                    <div class="row">
+
+                        <div class="col-md-2" >
+
+                            <button class="btn btn-info" ng-click="vm.loading = !vm.loading">Carregar</button>
+                            <br>
+                            Carregando: {{ vm.loading }}
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac neque ipsum. Nullam nec diam eleifend, mattis nisi nec, accumsan neque. Ut tristique libero eget ligula faucibus ornare.
+                        <softload type="1" loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="2"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="3"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="4"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="5"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="6"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="7"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="8"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="9"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="10"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    <div class="col-md-2" style="height: 200px;">
+
+                        <softload type="11"  loading="vm.loading"></softload>
+
+                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    </body>
+
+</html>
