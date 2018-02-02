@@ -12,7 +12,8 @@
   "dependencies": {
     "angular": ">1.5.8",
     "angular-sanitize": "*",
-    "SpinKit": "spinkit#^1.2.5"
+    "SpinKit": "spinkit#^1.2.5",
+    "font-awesome": "^4.7.0"
   },
   "keywords": [
     "soft",
